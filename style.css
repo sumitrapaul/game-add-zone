@@ -1,83 +1,246 @@
-        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: 'Work Sans', sans-serif;
-        }
-        /* header section */
-        
-        .nav-container {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background: #FFF;
-            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-            padding: 20px;
-        }
-        
-        .logo-container {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            justify-content: center;
-        }
-        
-        .logo-container img {
-            width: 86.041px;
-        }
-        
-        .design {
-            color: #FF42A5;
-        }
-        
-        .nav-items-container ul {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .nav-items-container li {
-            text-decoration: none;
-            list-style: none;
-            padding: 15px;
-            cursor: pointer;
-        }
-        
-        .nav-items-container li:last-child {
-            border-radius: 8px;
-            background: rgba(11, 2, 35, 0.10);
-            padding: 5px;
-        }
-        /* banner section */
-        
-        .banner {
-            display: flex;
-        }
-        
-        .play-game {
-            margin: 140px;
-        }
-        
-        .play {
-            color: #0B0223;
-            text-align: center;
-            font-size: 48px;
-            font-weight: 600;
-            margin-bottom: 20px;
-        }
-        
-        .goat {
-            background: linear-gradient(90deg, #F948B2 0%, #8758F1 40%);
-            text-align: center;
-            font-size: 95px;
-            font-weight: 800;
-            margin-bottom: 20px;
-        }
-        
-        .instant {
-            color: #534C64;
-            text-align: center;
-            font-size: 20px;
-            font-weight: 500;
-            margin: 10px;
-        }
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Work Sans', sans-serif;
+    }
+    /* header section */
+    
+    .nav-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+        padding: 20px;
+    }
+    
+    .logo-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .logo-container img {
+        width: 86.041px;
+    }
+    
+    .design {
+        color: #FF42A5;
+    }
+    
+    .nav-items-container ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-items-container li {
+        text-decoration: none;
+        list-style: none;
+        padding: 15px;
+        cursor: pointer;
+    }
+    
+    .nav-items-container li:last-child {
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+        padding: 5px;
+    }
+    /* banner section */
+    
+    .banner {
+        display: flex;
+    }
+    
+    .play-game {
+        margin: 140px;
+    }
+    
+    .play {
+        color: #0B0223;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    
+    .goat {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-size: 95px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    
+    .instant {
+        color: #534C64;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 10px;
+    }
+    
+    .btn {
+        border-radius: 48px;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        display: inline-flex;
+        padding: 21px 40px;
+        align-items: flex-start;
+        gap: 10px;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .btn-btn {
+        display: inline-flex;
+        padding: 21px 40px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 48px;
+        background: #4EC5F7;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /* gamer section */
+    
+    .gamer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 90%);
+        margin-top: -2px;
+    }
+    
+    .game-player {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    
+    .btn-btn-btn {
+        border-radius: 48px;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        display: inline-flex;
+        padding: 21px 40px;
+        align-items: flex-start;
+        gap: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #FFF;
+    }
+    
+    .instant-purpose {
+        color: #534C64;
+        text-align: right;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 45px;
+    }
+    
+    .instant-unleash {
+        color: #534C64;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 45px;
+    }
+    /* funny-video section */
+    
+    .funny-content {
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    .online-game {
+        color: #0B0223;
+        text-align: right;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    
+    .funny-content-title {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    
+    .card {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        justify-content: center;
+        padding: 15px 0px;
+        margin: 80px 80px;
+    }
+    
+    .box-record img {
+        width: 100%;
+    }
+    /* instant section */
+    
+    .play-instant {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFF;
+        margin: 40px;
+        gap: 100px;
+        padding: 10px 90px;
+    }
+    
+    .instant-instruction {
+        max-width: 400px;
+        padding-left: 70px;
+    }
+    
+    .instant-description {
+        text-align: left;
+    }
+    
+    .instant-change {
+        text-align: right;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 60px;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .download {
+        color: #0B0223;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 60px;
+    }
+    
+    .anniversary {
+        width: 550px;
+        padding-left: 70px;
+        padding-top: 20px;
+    }
+    
+    .anniversary img {
+        width: 100%;
+    }
+    
+    .talk {
+        position: relative;
+        width: 100px;
+        height: 150px;
+        bottom: 110px;
+        right: 50px;
+    }
