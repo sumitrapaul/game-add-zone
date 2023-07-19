@@ -46,7 +46,7 @@
                                                                 .nav-items-container li:last-child {
                                                                     border-radius: 8px;
                                                                     background: rgba(11, 2, 35, 0.10);
-                                                                    padding: 5px;
+                                                                    padding: 15px;
                                                                 }
                                                                 /* banner section */
                                                                 
@@ -132,19 +132,21 @@
                                                                     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
                                                                     display: inline-flex;
                                                                     padding: 21px 40px;
-                                                                    align-items: flex-start;
-                                                                    gap: 10px;
+                                                                    align-items: flex-end;
                                                                     font-size: 20px;
                                                                     font-weight: 600;
                                                                     color: #FFF;
+                                                                    margin-left: 250px;
+                                                                    gap: 10px;
                                                                 }
                                                                 
                                                                 .instant-purpose {
                                                                     color: #534C64;
-                                                                    text-align: right;
+                                                                    text-align: left;
                                                                     font-size: 24px;
                                                                     font-weight: 500;
                                                                     line-height: 45px;
+                                                                    margin-left: 270px;
                                                                 }
                                                                 
                                                                 .instant-unleash {
@@ -166,6 +168,7 @@
                                                                     text-align: center;
                                                                     margin-left: 50px;
                                                                     color: #ba1580;
+                                                                    cursor: pointer;
                                                                 }
                                                                 
                                                                 .icon span {
@@ -175,6 +178,15 @@
                                                                 
                                                                 .icon i {
                                                                     font-size: 20px;
+                                                                }
+                                                                
+                                                                .icon:hover {
+                                                                    opacity: 0.8;
+                                                                    color: red;
+                                                                }
+                                                                
+                                                                .icon i:hover {
+                                                                    background-color: #8758F1;
                                                                 }
                                                                 
                                                                 .online-game {
@@ -200,6 +212,11 @@
                                                                     justify-content: center;
                                                                     padding: 15px 0px;
                                                                     margin: 80px 80px;
+                                                                }
+                                                                
+                                                                .box-record .break {
+                                                                    text-align: center;
+                                                                    margin-top: -50px;
                                                                 }
                                                                 
                                                                 .box-record img {
@@ -270,19 +287,19 @@
                                                                 
                                                                 .action-games,
                                                                 .arcade-games {
-                                                                    border-radius: 100px;
+                                                                    border-radius: 50px;
                                                                     border: 1px solid rgb(150, 152, 150);
                                                                     background: #FFF;
-                                                                    width: 242px;
-                                                                    height: 80px;
-                                                                    margin: 10px 10px;
-                                                                    padding: 10px 10px;
+                                                                    width: 60%;
+                                                                    height: 90px;
+                                                                    margin: 5px;
+                                                                    padding: 16px;
                                                                     display: flex;
                                                                     justify-content: center;
                                                                     align-items: center;
-                                                                    gap: 10px;
+                                                                    gap: 2px;
                                                                     color: #0B0223;
-                                                                    font-size: 20px;
+                                                                    font-size: 10px;
                                                                     font-weight: 600;
                                                                 }
                                                                 
@@ -291,7 +308,7 @@
                                                                     background-clip: text;
                                                                     -webkit-background-clip: text;
                                                                     -webkit-text-fill-color: transparent;
-                                                                    font-size: 20px;
+                                                                    font-size: 10px;
                                                                     font-weight: 600;
                                                                     border: 1px solid #FF42A5;
                                                                 }
@@ -365,7 +382,8 @@
                                                                     .play-instant {
                                                                         flex-direction: column;
                                                                         text-align: center;
-                                                                        padding: 30px;
+                                                                        padding: 20px;
+                                                                        margin: 50px;
                                                                     }
                                                                     .play-game button {
                                                                         flex-direction: row;
@@ -380,14 +398,14 @@
                                                                         align-items: center;
                                                                     }
                                                                     .picture img {
-                                                                        width: 90%;
+                                                                        width: 80%;
                                                                     }
                                                                     .button {
                                                                         display: flex;
                                                                         gap: 10px;
                                                                     }
                                                                     .gamer img {
-                                                                        width: 90%;
+                                                                        width: 80%;
                                                                     }
                                                                     .card {
                                                                         grid-template-columns: repeat(1, 1fr);
@@ -397,15 +415,15 @@
                                                                         padding-top: 30px auto;
                                                                     }
                                                                     .play-instant .anniversary {
-                                                                        width: 90%;
+                                                                        width: 80%;
                                                                     }
                                                                     .games {
+                                                                        display: grid;
                                                                         grid-template-columns: repeat(3, 1fr);
-                                                                        align-items: center;
                                                                     }
                                                                     .action-games,
                                                                     .arcade-games {
-                                                                        width: 70%;
+                                                                        width: 50%;
                                                                     }
                                                                     .story {
                                                                         text-align: center;
@@ -434,7 +452,8 @@
                                                                     .play-instant {
                                                                         flex-direction: column;
                                                                         text-align: center;
-                                                                        padding: 30px;
+                                                                        padding: 20px;
+                                                                        margin: 100px;
                                                                     }
                                                                     .play-game button {
                                                                         flex-direction: row;
@@ -449,24 +468,24 @@
                                                                         align-items: center;
                                                                     }
                                                                     .picture img {
-                                                                        width: 90%;
+                                                                        width: 80%;
                                                                     }
                                                                     .button {
                                                                         display: flex;
                                                                         gap: 10px;
                                                                     }
                                                                     .gamer img {
-                                                                        width: 90%;
+                                                                        width: 80%;
                                                                     }
                                                                     .card {
                                                                         grid-template-columns: repeat(1, 1fr);
                                                                     }
                                                                     .icon {
-                                                                        margin-left: 20px auto;
-                                                                        padding-top: 30px auto;
+                                                                        margin-left: 10px auto;
+                                                                        padding-top: 20px auto;
                                                                     }
                                                                     .play-instant .anniversary {
-                                                                        width: 90%;
+                                                                        width: 80%;
                                                                     }
                                                                     .games {
                                                                         grid-template-columns: repeat(3, 1fr);
@@ -474,7 +493,9 @@
                                                                     }
                                                                     .action-games,
                                                                     .arcade-games {
-                                                                        width: 70%;
+                                                                        width: 80%;
+                                                                        grid-template-columns: repeat(3, 1fr);
+                                                                        align-items: center;
                                                                     }
                                                                     .story {
                                                                         text-align: center;
