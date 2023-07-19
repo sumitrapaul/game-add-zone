@@ -366,6 +366,11 @@
                                                                     color: rgba(255, 255, 255, 0.60);
                                                                 }
                                                                 
+                                                                .btn-btn-btn {
+                                                                    align-items: center;
+                                                                    justify-content: center;
+                                                                }
+                                                                
                                                                 .end {
                                                                     display: flex;
                                                                     justify-content: center;
