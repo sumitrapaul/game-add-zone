@@ -162,19 +162,19 @@
                                                                 
                                                                 .icon {
                                                                     position: relative;
-                                                                    bottom: 340px;
+                                                                    bottom: 200px;
                                                                     text-align: center;
-                                                                    margin-left: 256px;
-                                                                    color: #249e5f;
+                                                                    margin-left: 50px;
+                                                                    color: #ba1580;
                                                                 }
                                                                 
                                                                 .icon span {
                                                                     font-weight: 600;
-                                                                    font-size: 1.2rem;
+                                                                    font-size: 1.9rem;
                                                                 }
                                                                 
                                                                 .icon i {
-                                                                    font-size: 40px;
+                                                                    font-size: 20px;
                                                                 }
                                                                 
                                                                 .online-game {
